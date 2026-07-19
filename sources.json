@@ -1,0 +1,259 @@
+{
+  "generated_at": "2026-07-18T18:30:00-06:00",
+  "schema_version": "0.2.0",
+  "sources": [
+    {
+      "id": "pocatello_city",
+      "name": "City of Pocatello Trails",
+      "type": "local_government",
+      "priority": 3,
+      "url": "https://pocatello.gov/348/Trails",
+      "automated": false,
+      "automation_mode": "health_check_only",
+      "update_frequency": "daily"
+    },
+    {
+      "id": "usfs_ctnf",
+      "name": "Caribou-Targhee National Forest",
+      "type": "federal_government",
+      "priority": 1,
+      "url": "https://www.fs.usda.gov/r04/caribou-targhee",
+      "automated": true,
+      "automation_mode": "official_page_health_and_alerts",
+      "alert_url": "https://www.fs.usda.gov/r04/caribou-targhee/alerts",
+      "update_frequency": "6_hours"
+    },
+    {
+      "id": "idaho_parks",
+      "name": "Idaho Department of Parks and Recreation",
+      "type": "state_government",
+      "priority": 2,
+      "url": "https://parksandrecreation.idaho.gov/",
+      "automated": true,
+      "automation_mode": "official_page_health",
+      "update_frequency": "6_hours"
+    },
+    {
+      "id": "idaho_parks_alerts",
+      "name": "Idaho State Parks Notices and Events",
+      "type": "state_government",
+      "priority": 2,
+      "url": "https://parksandrecreation.idaho.gov/",
+      "automated": false,
+      "automation_mode": "manual_destination_review",
+      "update_frequency": "daily"
+    },
+    {
+      "id": "blm_pocatello",
+      "name": "BLM Pocatello Field Office",
+      "type": "federal_government",
+      "priority": 1,
+      "url": "https://www.blm.gov/office/pocatello-field-office",
+      "automated": true,
+      "automation_mode": "official_page_health",
+      "update_frequency": "6_hours"
+    },
+    {
+      "id": "blm_upper_snake",
+      "name": "BLM Upper Snake Field Office",
+      "type": "federal_government",
+      "priority": 1,
+      "url": "https://www.blm.gov/office/upper-snake-field-office",
+      "automated": true,
+      "automation_mode": "official_page_health",
+      "update_frequency": "daily"
+    },
+    {
+      "id": "blm_cress_creek",
+      "name": "BLM Cress Creek Nature Trail",
+      "type": "federal_government",
+      "priority": 1,
+      "url": "https://www.blm.gov/visit/cress-creek-nature-trail",
+      "automated": true,
+      "automation_mode": "official_page_health",
+      "update_frequency": "daily"
+    },
+    {
+      "id": "blm_blackfoot_reservoir",
+      "name": "BLM Blackfoot Reservoir Campground",
+      "type": "federal_government",
+      "priority": 1,
+      "url": "https://www.blm.gov/node/101696",
+      "automated": true,
+      "automation_mode": "official_page_health",
+      "update_frequency": "daily"
+    },
+    {
+      "id": "recreation_gov",
+      "name": "Recreation.gov",
+      "type": "federal_reservation_platform",
+      "priority": 5,
+      "url": "https://www.recreation.gov/",
+      "automated": false,
+      "automation_mode": "ridb_api_optional",
+      "requires_env": "RIDB_API_KEY",
+      "update_frequency": "12_hours"
+    },
+    {
+      "id": "idfg",
+      "name": "Idaho Fish and Game",
+      "type": "state_government",
+      "priority": 2,
+      "url": "https://idfg.idaho.gov/",
+      "automated": true,
+      "automation_mode": "official_page_health",
+      "update_frequency": "daily"
+    },
+    {
+      "id": "idfg_fishing_planner",
+      "name": "Idaho Fishing Planner",
+      "type": "state_government",
+      "priority": 2,
+      "url": "https://idfg.idaho.gov/ifwis/fishingplanner/",
+      "automated": true,
+      "automation_mode": "official_page_health",
+      "update_frequency": "daily"
+    },
+    {
+      "id": "idfg_stocking",
+      "name": "Idaho Fish Stocking Records",
+      "type": "state_government",
+      "priority": 2,
+      "url": "https://idfg.idaho.gov/fish/stocking",
+      "automated": true,
+      "automation_mode": "official_page_health",
+      "update_frequency": "daily"
+    },
+    {
+      "id": "blackfoot_city",
+      "name": "City of Blackfoot Parks",
+      "type": "local_government",
+      "priority": 3,
+      "url": "https://www.cityofblackfoot.org/",
+      "automated": true,
+      "automation_mode": "official_page_health",
+      "update_frequency": "daily"
+    },
+    {
+      "id": "idaho_falls_city",
+      "name": "City of Idaho Falls Parks and Recreation",
+      "type": "local_government",
+      "priority": 3,
+      "url": "https://www.idahofallsidaho.gov/Facilities/Facility/Details/River-Walk-69",
+      "automated": true,
+      "automation_mode": "official_page_health",
+      "update_frequency": "daily"
+    },
+    {
+      "id": "soda_springs_city",
+      "name": "City of Soda Springs",
+      "type": "local_government",
+      "priority": 3,
+      "url": "https://www.sodaspringsid.com/",
+      "automated": true,
+      "automation_mode": "official_page_health",
+      "update_frequency": "weekly"
+    },
+    {
+      "id": "lava_official",
+      "name": "Lava Hot Springs Official Visitor Information",
+      "type": "official_destination",
+      "priority": 4,
+      "url": "https://lavahotsprings.com/",
+      "automated": true,
+      "automation_mode": "official_page_health",
+      "update_frequency": "daily"
+    },
+    {
+      "id": "willow_bay_official",
+      "name": "Willow Bay Resort and Recreation Area",
+      "type": "official_destination",
+      "priority": 4,
+      "url": "https://www.willowbayresort.com/",
+      "automated": true,
+      "automation_mode": "official_page_health",
+      "update_frequency": "daily"
+    },
+    {
+      "id": "chesterfield_official",
+      "name": "Chesterfield Foundation",
+      "type": "nonprofit_site_manager",
+      "priority": 4,
+      "url": "https://chesterfieldfoundation.org/",
+      "automated": true,
+      "automation_mode": "official_page_health",
+      "update_frequency": "weekly"
+    },
+    {
+      "id": "usbr_palisades",
+      "name": "U.S. Bureau of Reclamation Pacific Northwest Region",
+      "type": "federal_government",
+      "priority": 1,
+      "url": "https://www.usbr.gov/pn/",
+      "automated": true,
+      "automation_mode": "official_page_health",
+      "update_frequency": "daily"
+    },
+    {
+      "id": "nws",
+      "name": "National Weather Service Idaho Alerts",
+      "type": "federal_government",
+      "priority": 1,
+      "url": "https://api.weather.gov/alerts/active?area=ID",
+      "automated": true,
+      "automation_mode": "json_api",
+      "update_frequency": "3_hours"
+    },
+    {
+      "id": "nws_points",
+      "name": "National Weather Service Point Forecasts",
+      "type": "federal_government",
+      "priority": 1,
+      "url": "https://api.weather.gov/points/",
+      "automated": true,
+      "automation_mode": "json_api_per_destination",
+      "update_frequency": "6_hours"
+    },
+    {
+      "id": "itd_511",
+      "name": "Idaho 511",
+      "type": "state_government",
+      "priority": 2,
+      "url": "https://511.idaho.gov/",
+      "automated": true,
+      "automation_mode": "official_page_health_only_no_scraping",
+      "update_frequency": "3_hours"
+    },
+    {
+      "id": "idaho_fire",
+      "name": "Idaho Fire Restrictions Finder",
+      "type": "state_federal_partnership",
+      "priority": 2,
+      "url": "https://www.idl.idaho.gov/fire-management/fire-restrictions-finder/",
+      "automated": true,
+      "automation_mode": "official_page_health_manual_interpretation",
+      "update_frequency": "6_hours"
+    },
+    {
+      "id": "idaho_deq_air",
+      "name": "Idaho DEQ Air Quality",
+      "type": "state_government",
+      "priority": 2,
+      "url": "https://www.deq.idaho.gov/air-quality/monitoring/daily-reports-and-forecasts/",
+      "automated": true,
+      "automation_mode": "official_page_health",
+      "update_frequency": "6_hours"
+    },
+    {
+      "id": "airnow",
+      "name": "EPA AirNow API",
+      "type": "federal_government",
+      "priority": 1,
+      "url": "https://www.airnowapi.org/",
+      "automated": false,
+      "automation_mode": "api_optional",
+      "requires_env": "AIRNOW_API_KEY",
+      "update_frequency": "3_hours"
+    }
+  ]
+}

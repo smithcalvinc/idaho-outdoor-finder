@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-07-18T18:26:21.968Z",
+  "source_conditions_generated_at": null,
+  "warning": "Generated from current stored conditions. Users must still verify official sources before departure.",
+  "picks": [
+    {
+      "label": "Best overall",
+      "destination_id": "city-creek",
+      "readiness": "yellow"
+    },
+    {
+      "label": "Best low-cost",
+      "destination_id": "city-creek",
+      "readiness": "yellow"
+    },
+    {
+      "label": "Best family choice",
+      "destination_id": "massacre-rocks",
+      "readiness": "yellow"
+    },
+    {
+      "label": "Best dog-friendly choice",
+      "destination_id": "city-creek",
+      "readiness": "yellow"
+    },
+    {
+      "label": "Best quiet choice",
+      "destination_id": "gibson-jack",
+      "readiness": "yellow"
+    },
+    {
+      "label": "Backup destination",
+      "destination_id": "city-creek",
+      "readiness": "yellow"
+    }
+  ]
+}

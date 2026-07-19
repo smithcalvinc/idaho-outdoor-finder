@@ -1,0 +1,2382 @@
+{
+  "schema_version": "0.4.0",
+  "generated_at": "2026-07-18T18:30:00-06:00",
+  "launch_region": "Southeast and Eastern Idaho",
+  "public_launch_ready": false,
+  "destinations": [
+    {
+      "id": "city-creek",
+      "name": "City Creek Trail System",
+      "alternate_names": [],
+      "destination_type": "trail_system",
+      "description": "A close-to-town trail network for short hikes, mountain biking, and quick outdoor breaks.",
+      "county": "Bannock",
+      "region": "Southeast Idaho",
+      "coordinates": {
+        "lat": 42.862,
+        "lon": -112.409,
+        "precision": "starter coordinates; not approved for turn-by-turn navigation"
+      },
+      "nearest_town": "Pocatello",
+      "managing_agency": "City of Pocatello",
+      "source_ids": [
+        "pocatello_city"
+      ],
+      "activities": [
+        "hiking",
+        "bicycling",
+        "wildlife"
+      ],
+      "access": {
+        "road_surface": "paved to primary access",
+        "vehicle_min": "2wd",
+        "seasonal": "year-round with weather limits",
+        "trailer_suitable": false
+      },
+      "camping": {
+        "available": false,
+        "types": []
+      },
+      "facilities": {
+        "toilets": "limited/verify",
+        "water": "bring your own",
+        "cell_service": "likely but not guaranteed"
+      },
+      "suitability": {
+        "beginner": true,
+        "children": true,
+        "dogs": false,
+        "accessible": false,
+        "quiet": false,
+        "crowd": "moderate",
+        "dog_policy": "verify"
+      },
+      "cost_level": "free",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 79,
+        "expires_at": null
+      },
+      "verification_status": "official_static_profile_reviewed_live_conditions_pending",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://pocatello.gov/348/Trails",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": true,
+        "coordinates_verified": false,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Bannock County",
+        "Pocatello",
+        "City Creek Trail System"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=42.862,-112.409",
+      "accuracy": {
+        "static_status": "reviewed",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "The City of Pocatello identifies City Creek as a city-owned multi-use trail system.",
+          "The official trail map warns that some routes cross private land and users must stay on marked trails.",
+          "The trail system is undergoing planning, so route details can change."
+        ],
+        "known_limits": [
+          "No live muddy-trail, gate, or temporary-closure feed is connected.",
+          "Dog, toilet, and accessibility details still need trip-day confirmation."
+        ]
+      }
+    },
+    {
+      "id": "gibson-jack",
+      "name": "Gibson Jack Trailhead",
+      "alternate_names": [],
+      "destination_type": "trailhead",
+      "description": "A popular foothill access point southwest of Pocatello with trails ranging from easy outings to longer routes.",
+      "county": "Bannock",
+      "region": "Southeast Idaho",
+      "coordinates": {
+        "lat": 42.789,
+        "lon": -112.475,
+        "precision": "starter coordinates; not approved for turn-by-turn navigation"
+      },
+      "nearest_town": "Pocatello",
+      "managing_agency": "Bannock County / local land managers",
+      "source_ids": [
+        "usfs_ctnf",
+        "pocatello_city"
+      ],
+      "activities": [
+        "hiking",
+        "bicycling",
+        "wildlife",
+        "picnicking"
+      ],
+      "access": {
+        "road_surface": "paved/gravel near access",
+        "vehicle_min": "2wd",
+        "seasonal": "snow and mud can affect access",
+        "trailer_suitable": false
+      },
+      "camping": {
+        "available": false,
+        "types": []
+      },
+      "facilities": {
+        "toilets": "verify",
+        "water": "bring your own",
+        "cell_service": "unreliable"
+      },
+      "suitability": {
+        "beginner": true,
+        "children": true,
+        "dogs": false,
+        "accessible": false,
+        "quiet": true,
+        "crowd": "low to moderate",
+        "dog_policy": "verify"
+      },
+      "cost_level": "free",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 56,
+        "expires_at": null
+      },
+      "verification_status": "official_source_matched_additional_profile_review_needed",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://www.fs.usda.gov/r04/caribou-targhee/recreation",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": false,
+        "coordinates_verified": false,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Bannock County",
+        "Pocatello",
+        "Gibson Jack Trailhead"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=42.789,-112.475",
+      "accuracy": {
+        "static_status": "partial",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "A managing-agency source has been matched for the broader recreation area."
+        ],
+        "known_limits": [
+          "Exact trailhead management, coordinates, facilities, dog rules, and seasonal access remain under review."
+        ]
+      }
+    },
+    {
+      "id": "scout-mountain",
+      "name": "Scout Mountain Campground",
+      "alternate_names": [],
+      "destination_type": "campground",
+      "description": "A forest campground near Pocatello that can work well for a simple mountain overnight when seasonal access is open.",
+      "county": "Bannock",
+      "region": "Southeast Idaho",
+      "coordinates": {
+        "lat": 42.69350903,
+        "lon": -112.3581235,
+        "precision": "official-source coordinates reviewed"
+      },
+      "nearest_town": "Pocatello",
+      "managing_agency": "Caribou-Targhee National Forest",
+      "source_ids": [
+        "usfs_ctnf",
+        "recreation_gov"
+      ],
+      "activities": [
+        "camping",
+        "hiking",
+        "wildlife",
+        "picnicking"
+      ],
+      "access": {
+        "road_surface": "paved campground road with switchbacks",
+        "vehicle_min": "2wd",
+        "seasonal": "seasonal mountain campground; verify opening",
+        "trailer_suitable": true
+      },
+      "camping": {
+        "available": true,
+        "types": [
+          "tent",
+          "rv"
+        ]
+      },
+      "facilities": {
+        "toilets": "vault toilets listed",
+        "water": "drinking water listed; verify seasonal service",
+        "cell_service": "unreliable"
+      },
+      "suitability": {
+        "beginner": true,
+        "children": true,
+        "dogs": true,
+        "accessible": false,
+        "quiet": true,
+        "crowd": "moderate",
+        "dog_policy": "conditional"
+      },
+      "cost_level": "paid",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 90,
+        "expires_at": null
+      },
+      "verification_status": "official_static_profile_reviewed_live_conditions_pending",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://www.recreation.gov/camping/campgrounds/233968",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": true,
+        "coordinates_verified": true,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Bannock County",
+        "Pocatello",
+        "Scout Mountain Campground"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=42.69350903,-112.3581235",
+      "accuracy": {
+        "static_status": "reviewed",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "Scout Mountain Campground is about 13 miles south of Pocatello at roughly 6,900 feet.",
+          "Official listings describe paved access with switchbacks and RV access.",
+          "First-come and reservable sites, vault toilets, and drinking water are listed.",
+          "There are no utility hookups, and visitors must pack out garbage."
+        ],
+        "known_limits": [
+          "Dogs may be compatible with campsites, but the adjacent Scout Lake Day Use Area has a separate no-dog rule.",
+          "Opening dates, water service, fire restrictions, and availability require a live check."
+        ]
+      }
+    },
+    {
+      "id": "mink-creek",
+      "name": "Mink Creek Recreation Area",
+      "alternate_names": [],
+      "destination_type": "recreation_area",
+      "description": "A nearby mountain recreation corridor with trail access and four-season use depending on conditions.",
+      "county": "Bannock",
+      "region": "Southeast Idaho",
+      "coordinates": {
+        "lat": 42.77,
+        "lon": -112.404,
+        "precision": "starter coordinates; not approved for turn-by-turn navigation"
+      },
+      "nearest_town": "Pocatello",
+      "managing_agency": "Caribou-Targhee National Forest",
+      "source_ids": [
+        "usfs_ctnf"
+      ],
+      "activities": [
+        "hiking",
+        "bicycling",
+        "winter",
+        "wildlife",
+        "picnicking"
+      ],
+      "access": {
+        "road_surface": "paved then mixed surfaces",
+        "vehicle_min": "2wd",
+        "seasonal": "weather dependent",
+        "trailer_suitable": false
+      },
+      "camping": {
+        "available": false,
+        "types": []
+      },
+      "facilities": {
+        "toilets": "limited/verify",
+        "water": "bring your own",
+        "cell_service": "unreliable"
+      },
+      "suitability": {
+        "beginner": true,
+        "children": true,
+        "dogs": false,
+        "accessible": false,
+        "quiet": true,
+        "crowd": "moderate",
+        "dog_policy": "verify"
+      },
+      "cost_level": "free",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 78,
+        "expires_at": null
+      },
+      "verification_status": "official_static_profile_reviewed_live_conditions_pending",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://www.fs.usda.gov/r04/caribou-targhee/recreation/explore-forest",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": true,
+        "coordinates_verified": false,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Bannock County",
+        "Pocatello",
+        "Mink Creek Recreation Area"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=42.77,-112.404",
+      "accuracy": {
+        "static_status": "reviewed",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "The Forest Service describes Mink Creek Recreation Area as offering developed and dispersed recreation.",
+          "The area includes campgrounds, picnic areas, group sites, and motorized and non-motorized trails."
+        ],
+        "known_limits": [
+          "Mink Creek is a broad recreation area rather than one facility.",
+          "Rules, fees, facilities, and road access must be checked for the exact site selected."
+        ]
+      }
+    },
+    {
+      "id": "massacre-rocks",
+      "name": "Massacre Rocks State Park",
+      "alternate_names": [],
+      "destination_type": "state_park",
+      "description": "A state park on the Snake River with camping, trails, boating access, and Oregon Trail history.",
+      "county": "Power",
+      "region": "Southeast Idaho",
+      "coordinates": {
+        "lat": 42.7,
+        "lon": -112.983,
+        "precision": "starter coordinates; not approved for turn-by-turn navigation"
+      },
+      "nearest_town": "American Falls",
+      "managing_agency": "Idaho Department of Parks and Recreation",
+      "source_ids": [
+        "idaho_parks",
+        "idaho_parks_alerts"
+      ],
+      "activities": [
+        "camping",
+        "hiking",
+        "fishing",
+        "boating",
+        "scenic",
+        "picnicking"
+      ],
+      "access": {
+        "road_surface": "paved",
+        "vehicle_min": "2wd",
+        "seasonal": "generally accessible; verify winter services",
+        "trailer_suitable": true
+      },
+      "camping": {
+        "available": true,
+        "types": [
+          "tent",
+          "rv"
+        ]
+      },
+      "facilities": {
+        "toilets": "yes/seasonal details vary",
+        "water": "verify",
+        "cell_service": "variable"
+      },
+      "suitability": {
+        "beginner": true,
+        "children": true,
+        "dogs": true,
+        "accessible": true,
+        "quiet": false,
+        "crowd": "moderate",
+        "dog_policy": "allowed"
+      },
+      "cost_level": "paid",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 84,
+        "expires_at": null
+      },
+      "verification_status": "official_static_profile_reviewed_live_conditions_pending",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://parksandrecreation.idaho.gov/state-park/massacre-rocks-state-park/",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": true,
+        "coordinates_verified": false,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Power County",
+        "American Falls",
+        "Massacre Rocks State Park"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=42.7,-112.983",
+      "accuracy": {
+        "static_status": "reviewed",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "Massacre Rocks is an Idaho state park with camping, day use, historic interpretation, and Snake River access.",
+          "General Idaho State Park rules require dogs to be confined or on a leash no longer than six feet unless a unit-specific rule says otherwise."
+        ],
+        "known_limits": [
+          "Campsite availability, water service, boat access, fees, and fire restrictions are not embedded live."
+        ]
+      }
+    },
+    {
+      "id": "willow-bay",
+      "name": "Willow Bay Recreation Area",
+      "alternate_names": [],
+      "destination_type": "recreation_area",
+      "description": "A reservoir-side recreation option near American Falls for camping, boating, and fishing.",
+      "county": "Power",
+      "region": "Southeast Idaho",
+      "coordinates": {
+        "lat": 42.783,
+        "lon": -112.879,
+        "precision": "starter coordinates; not approved for turn-by-turn navigation"
+      },
+      "nearest_town": "American Falls",
+      "managing_agency": "Local recreation operator / public reservoir managers",
+      "source_ids": [
+        "willow_bay_official",
+        "idfg"
+      ],
+      "activities": [
+        "camping",
+        "fishing",
+        "boating",
+        "picnicking"
+      ],
+      "access": {
+        "road_surface": "paved/gravel; verify final approach",
+        "vehicle_min": "2wd",
+        "seasonal": "seasonal services",
+        "trailer_suitable": true
+      },
+      "camping": {
+        "available": true,
+        "types": [
+          "tent",
+          "rv"
+        ]
+      },
+      "facilities": {
+        "toilets": "verify",
+        "water": "verify",
+        "cell_service": "variable",
+        "boat_ramp": "verify"
+      },
+      "suitability": {
+        "beginner": true,
+        "children": true,
+        "dogs": false,
+        "accessible": false,
+        "quiet": false,
+        "crowd": "moderate",
+        "dog_policy": "verify"
+      },
+      "cost_level": "paid",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 58,
+        "expires_at": null
+      },
+      "verification_status": "official_source_matched_additional_profile_review_needed",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://www.willowbayresort.com/",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": false,
+        "coordinates_verified": false,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Power County",
+        "American Falls",
+        "Willow Bay Recreation Area"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=42.783,-112.879",
+      "accuracy": {
+        "static_status": "partial",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "Willow Bay is associated with recreation and camping access at American Falls Reservoir."
+        ],
+        "known_limits": [
+          "Current operator, public/private boundaries, fees, dog rules, facilities, and reservations require direct confirmation."
+        ]
+      }
+    },
+    {
+      "id": "devil-creek",
+      "name": "Devil Creek Reservoir",
+      "alternate_names": [],
+      "destination_type": "reservoir",
+      "description": "A small reservoir south of Pocatello that can suit a quieter fishing or paddling day when access is good.",
+      "county": "Oneida",
+      "region": "Southeast Idaho",
+      "coordinates": {
+        "lat": 42.32,
+        "lon": -112.73,
+        "precision": "starter coordinates; not approved for turn-by-turn navigation"
+      },
+      "nearest_town": "Malad City",
+      "managing_agency": "Idaho Fish and Game / local land managers",
+      "source_ids": [
+        "idfg",
+        "idfg_fishing_planner"
+      ],
+      "activities": [
+        "fishing",
+        "boating",
+        "picnicking",
+        "wildlife"
+      ],
+      "access": {
+        "road_surface": "paved/gravel access; verify",
+        "vehicle_min": "2wd",
+        "seasonal": "weather dependent",
+        "trailer_suitable": true
+      },
+      "camping": {
+        "available": false,
+        "types": []
+      },
+      "facilities": {
+        "toilets": "limited/verify",
+        "water": "bring your own",
+        "cell_service": "unreliable",
+        "boat_ramp": "official fishing/boating access site; verify current condition"
+      },
+      "suitability": {
+        "beginner": true,
+        "children": true,
+        "dogs": false,
+        "accessible": false,
+        "quiet": true,
+        "crowd": "low to moderate",
+        "dog_policy": "verify"
+      },
+      "cost_level": "free",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 86,
+        "expires_at": null
+      },
+      "verification_status": "official_static_profile_reviewed_live_conditions_pending",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://idfg.idaho.gov/ifwis/fishingplanner/water/1122052422984",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": true,
+        "coordinates_verified": false,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Oneida County",
+        "Malad City",
+        "Devil Creek Reservoir"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=42.32,-112.73",
+      "accuracy": {
+        "static_status": "reviewed",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "Idaho Fish and Game identifies Devil Creek Reservoir as a recommended fishing water.",
+          "The reservoir is stocked heavily with catchable-size rainbow trout.",
+          "Idaho Fish and Game lists a fishing and boating access site."
+        ],
+        "known_limits": [
+          "Stocking, ramp condition, water level, ice, roads, and current regulations must be checked separately."
+        ]
+      }
+    },
+    {
+      "id": "lava-hot-springs",
+      "name": "Lava Hot Springs",
+      "alternate_names": [],
+      "destination_type": "hot_springs_town",
+      "description": "A developed recreation town known for hot pools and seasonal river tubing, with family-friendly services and significant peak-season crowds.",
+      "county": "Bannock",
+      "region": "Southeast Idaho",
+      "coordinates": {
+        "lat": 42.62,
+        "lon": -112.012,
+        "precision": "starter coordinates; not approved for turn-by-turn navigation"
+      },
+      "nearest_town": "Lava Hot Springs",
+      "managing_agency": "Lava Hot Springs Foundation / local operators",
+      "source_ids": [
+        "lava_official"
+      ],
+      "activities": [
+        "swimming",
+        "tubing",
+        "picnicking",
+        "scenic"
+      ],
+      "access": {
+        "road_surface": "paved",
+        "vehicle_min": "2wd",
+        "seasonal": "year-round; activities vary",
+        "trailer_suitable": true
+      },
+      "camping": {
+        "available": true,
+        "types": [
+          "commercial nearby"
+        ]
+      },
+      "facilities": {
+        "toilets": "yes at paid facilities",
+        "water": "yes at facilities",
+        "cell_service": "generally available"
+      },
+      "suitability": {
+        "beginner": true,
+        "children": true,
+        "dogs": false,
+        "accessible": true,
+        "quiet": false,
+        "crowd": "high",
+        "dog_policy": "not_allowed"
+      },
+      "cost_level": "paid",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 77,
+        "expires_at": null
+      },
+      "verification_status": "official_static_profile_reviewed_live_conditions_pending",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://lavahotsprings.com/",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": true,
+        "coordinates_verified": false,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Bannock County",
+        "Lava Hot Springs",
+        "Lava Hot Springs"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=42.62,-112.012",
+      "accuracy": {
+        "static_status": "reviewed",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "Lava Hot Springs includes several paid aquatic and soaking facilities rather than one single destination.",
+          "Pools, slides, soaking areas, hours, admission, and accessibility vary by facility and season."
+        ],
+        "known_limits": [
+          "Live hours, capacity, closures, and facility-specific rules are not connected.",
+          "Dogs are not compatible with the primary aquatic facilities."
+        ]
+      }
+    },
+    {
+      "id": "chesterfield",
+      "name": "Chesterfield Historic Townsite",
+      "alternate_names": [],
+      "destination_type": "historic_site",
+      "description": "A preserved pioneer-era townsite offering a slow-paced history and photography outing.",
+      "county": "Caribou",
+      "region": "Southeast Idaho",
+      "coordinates": {
+        "lat": 42.871,
+        "lon": -111.9,
+        "precision": "starter coordinates; not approved for turn-by-turn navigation"
+      },
+      "nearest_town": "Soda Springs",
+      "managing_agency": "Chesterfield Foundation / local historic managers",
+      "source_ids": [
+        "chesterfield_official",
+        "soda_springs_city"
+      ],
+      "activities": [
+        "scenic",
+        "history",
+        "photography",
+        "picnicking"
+      ],
+      "access": {
+        "road_surface": "paved/gravel; verify route",
+        "vehicle_min": "2wd",
+        "seasonal": "weather dependent",
+        "trailer_suitable": true
+      },
+      "camping": {
+        "available": false,
+        "types": []
+      },
+      "facilities": {
+        "toilets": "limited/verify",
+        "water": "bring your own",
+        "cell_service": "unreliable"
+      },
+      "suitability": {
+        "beginner": true,
+        "children": true,
+        "dogs": false,
+        "accessible": false,
+        "quiet": true,
+        "crowd": "low",
+        "dog_policy": "verify"
+      },
+      "cost_level": "low",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 83,
+        "expires_at": null
+      },
+      "verification_status": "official_static_profile_reviewed_live_conditions_pending",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://www.historicchesterfield.org/visit.html",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": true,
+        "coordinates_verified": false,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Caribou County",
+        "Soda Springs",
+        "Chesterfield Historic Townsite"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=42.871,-111.9",
+      "accuracy": {
+        "static_status": "reviewed",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "Historic Chesterfield is operated by the Chesterfield Foundation.",
+          "Official visitor information directs guests to begin free tours at the Brick Store.",
+          "The site is seasonal."
+        ],
+        "known_limits": [
+          "Hours, roads, accessibility, pets, and available services must be confirmed for the planned date."
+        ]
+      }
+    },
+    {
+      "id": "blackfoot-reservoir",
+      "name": "Blackfoot Reservoir",
+      "alternate_names": [],
+      "destination_type": "reservoir",
+      "description": "A large, open reservoir landscape with fishing and primitive recreation; conditions can feel remote and exposed.",
+      "county": "Caribou",
+      "region": "Southeast Idaho",
+      "coordinates": {
+        "lat": 43.02,
+        "lon": -111.71,
+        "precision": "starter coordinates; not approved for turn-by-turn navigation"
+      },
+      "nearest_town": "Soda Springs",
+      "managing_agency": "Bureau of Land Management / Idaho Fish and Game",
+      "source_ids": [
+        "blm_pocatello",
+        "blm_blackfoot_reservoir",
+        "idfg"
+      ],
+      "activities": [
+        "camping",
+        "fishing",
+        "boating",
+        "wildlife"
+      ],
+      "access": {
+        "road_surface": "mixed paved and gravel",
+        "vehicle_min": "2wd",
+        "seasonal": "mud, snow, and wind may affect access",
+        "trailer_suitable": true
+      },
+      "camping": {
+        "available": true,
+        "types": [
+          "primitive",
+          "developed areas vary"
+        ]
+      },
+      "facilities": {
+        "toilets": "developed BLM campground; verify current service",
+        "water": "potable water listed; verify seasonal availability",
+        "cell_service": "unreliable",
+        "boat_ramp": "verify"
+      },
+      "suitability": {
+        "beginner": false,
+        "children": true,
+        "dogs": false,
+        "accessible": false,
+        "quiet": true,
+        "crowd": "low",
+        "dog_policy": "verify"
+      },
+      "cost_level": "low",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 85,
+        "expires_at": null
+      },
+      "verification_status": "official_static_profile_reviewed_live_conditions_pending",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://www.blm.gov/node/101696",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": true,
+        "coordinates_verified": false,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Caribou County",
+        "Soda Springs",
+        "Blackfoot Reservoir"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=43.02,-111.71",
+      "accuracy": {
+        "static_status": "reviewed",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "Blackfoot Reservoir Campground is managed by the Bureau of Land Management.",
+          "The developed campground is on the southwest end of Blackfoot Reservoir off Idaho Highway 34."
+        ],
+        "known_limits": [
+          "Opening, potable water, dump station, fees, fire restrictions, and roads are not live."
+        ]
+      }
+    },
+    {
+      "id": "jensen-grove",
+      "name": "Jensen Grove Park",
+      "alternate_names": [],
+      "destination_type": "city_park",
+      "description": "An easy city-park option with a lake, walking, picnic space, and nearby services.",
+      "county": "Bingham",
+      "region": "Southeast Idaho",
+      "coordinates": {
+        "lat": 43.19,
+        "lon": -112.34,
+        "precision": "starter coordinates; not approved for turn-by-turn navigation"
+      },
+      "nearest_town": "Blackfoot",
+      "managing_agency": "City of Blackfoot",
+      "source_ids": [
+        "blackfoot_city"
+      ],
+      "activities": [
+        "picnicking",
+        "walking",
+        "swimming",
+        "fishing"
+      ],
+      "access": {
+        "road_surface": "paved",
+        "vehicle_min": "2wd",
+        "seasonal": "year-round park access; services vary",
+        "trailer_suitable": true
+      },
+      "camping": {
+        "available": false,
+        "types": []
+      },
+      "facilities": {
+        "toilets": "seasonal/verify",
+        "water": "verify",
+        "cell_service": "generally available"
+      },
+      "suitability": {
+        "beginner": true,
+        "children": true,
+        "dogs": false,
+        "accessible": true,
+        "quiet": false,
+        "crowd": "moderate",
+        "dog_policy": "verify"
+      },
+      "cost_level": "free",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 62,
+        "expires_at": null
+      },
+      "verification_status": "official_source_matched_additional_profile_review_needed",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://www.cityofblackfoot.org/DocumentCenter/View/79/Greenbelt-Brochure-PDF",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": false,
+        "coordinates_verified": false,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Bingham County",
+        "Blackfoot",
+        "Jensen Grove Park"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=43.19,-112.34",
+      "accuracy": {
+        "static_status": "partial",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "Jensen Grove is a City of Blackfoot recreation area used for community events and fishing."
+        ],
+        "known_limits": [
+          "Lake condition, swimming status, dog rules, toilets, accessibility, and event closures require direct city confirmation."
+        ]
+      }
+    },
+    {
+      "id": "mctucker-ponds",
+      "name": "McTucker Ponds",
+      "alternate_names": [],
+      "destination_type": "fishing_access",
+      "description": "A group of small ponds often considered for easy bank fishing and wildlife viewing.",
+      "county": "Bingham",
+      "region": "Southeast Idaho",
+      "coordinates": {
+        "lat": 43.09,
+        "lon": -112.4,
+        "precision": "starter coordinates; not approved for turn-by-turn navigation"
+      },
+      "nearest_town": "Springfield",
+      "managing_agency": "Idaho Fish and Game",
+      "source_ids": [
+        "idfg",
+        "idfg_fishing_planner",
+        "idfg_stocking"
+      ],
+      "activities": [
+        "fishing",
+        "wildlife",
+        "picnicking"
+      ],
+      "access": {
+        "road_surface": "paved/gravel access",
+        "vehicle_min": "2wd",
+        "seasonal": "weather dependent",
+        "trailer_suitable": false
+      },
+      "camping": {
+        "available": false,
+        "types": []
+      },
+      "facilities": {
+        "toilets": "limited/verify",
+        "water": "bring your own",
+        "cell_service": "variable"
+      },
+      "suitability": {
+        "beginner": true,
+        "children": true,
+        "dogs": false,
+        "accessible": false,
+        "quiet": true,
+        "crowd": "low to moderate",
+        "dog_policy": "verify"
+      },
+      "cost_level": "free",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 81,
+        "expires_at": null
+      },
+      "verification_status": "official_static_profile_reviewed_live_conditions_pending",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://idfg.idaho.gov/ifwis/fishingplanner/water/1126514430404",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": true,
+        "coordinates_verified": false,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Bingham County",
+        "Springfield",
+        "McTucker Ponds"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=43.09,-112.4",
+      "accuracy": {
+        "static_status": "reviewed",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "Idaho Fish and Game lists McTucker Pond as a recommended fishing water near Springfield.",
+          "Official stocking updates include rainbow trout for McTucker Pond.",
+          "The site is promoted as a family bank-fishing location."
+        ],
+        "known_limits": [
+          "Official pages describe the pond complex differently over time.",
+          "Current stocking, weeds, ice, water level, toilets, and access are not live."
+        ]
+      }
+    },
+    {
+      "id": "idaho-falls-river-walk",
+      "name": "Idaho Falls River Walk",
+      "alternate_names": [],
+      "destination_type": "urban_trail",
+      "description": "A paved urban riverfront route suited to easy walking, sightseeing, and low-stress family outings.",
+      "county": "Bonneville",
+      "region": "Eastern Idaho",
+      "coordinates": {
+        "lat": 43.492,
+        "lon": -112.041,
+        "precision": "starter coordinates; not approved for turn-by-turn navigation"
+      },
+      "nearest_town": "Idaho Falls",
+      "managing_agency": "City of Idaho Falls",
+      "source_ids": [
+        "idaho_falls_city"
+      ],
+      "activities": [
+        "walking",
+        "scenic",
+        "picnicking",
+        "bicycling"
+      ],
+      "access": {
+        "road_surface": "paved",
+        "vehicle_min": "2wd",
+        "seasonal": "year-round with weather limits",
+        "trailer_suitable": true
+      },
+      "camping": {
+        "available": false,
+        "types": []
+      },
+      "facilities": {
+        "toilets": "available nearby/verify",
+        "water": "available nearby",
+        "cell_service": "generally available",
+        "seasonal_note": "Official city information says the floating bridge typically closes in early November and reopens in early June; confirm current status."
+      },
+      "suitability": {
+        "beginner": true,
+        "children": true,
+        "dogs": false,
+        "accessible": true,
+        "quiet": false,
+        "crowd": "moderate",
+        "dog_policy": "verify"
+      },
+      "cost_level": "free",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 88,
+        "expires_at": null
+      },
+      "verification_status": "official_static_profile_reviewed_live_conditions_pending",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://www.idahofallsidaho.gov/Facilities/Facility/Details/River-Walk-69",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": true,
+        "coordinates_verified": false,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Bonneville County",
+        "Idaho Falls",
+        "Idaho Falls River Walk"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=43.492,-112.041",
+      "accuracy": {
+        "static_status": "reviewed",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "The City of Idaho Falls describes the River Walk as about five miles on both sides of the Snake River.",
+          "The floating bridge typically closes in the first week of November and reopens in the first week of June."
+        ],
+        "known_limits": [
+          "Construction, events, snow, ice, lighting, dog rules, and bridge status require a current check."
+        ]
+      }
+    },
+    {
+      "id": "cress-creek",
+      "name": "Cress Creek Nature Trail",
+      "alternate_names": [],
+      "destination_type": "nature_trail",
+      "description": "A short nature-trail outing above the South Fork Snake River with interpretive and scenic value.",
+      "county": "Jefferson",
+      "region": "Eastern Idaho",
+      "coordinates": {
+        "lat": 43.59,
+        "lon": -111.73,
+        "precision": "starter coordinates; not approved for turn-by-turn navigation"
+      },
+      "nearest_town": "Ririe",
+      "managing_agency": "Bureau of Land Management",
+      "source_ids": [
+        "blm_upper_snake",
+        "blm_cress_creek",
+        "blm_pocatello"
+      ],
+      "activities": [
+        "hiking",
+        "wildlife",
+        "scenic",
+        "picnicking"
+      ],
+      "access": {
+        "road_surface": "paved/gravel access",
+        "vehicle_min": "2wd",
+        "seasonal": "weather dependent",
+        "trailer_suitable": false
+      },
+      "camping": {
+        "available": false,
+        "types": []
+      },
+      "facilities": {
+        "toilets": "accessible restrooms listed",
+        "water": "bring your own",
+        "cell_service": "variable",
+        "accessibility_note": "An accessible first section is verified, but official BLM pages differ on its exact length."
+      },
+      "suitability": {
+        "beginner": true,
+        "children": true,
+        "dogs": false,
+        "accessible": true,
+        "quiet": true,
+        "crowd": "moderate",
+        "dog_policy": "verify"
+      },
+      "cost_level": "free",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 87,
+        "expires_at": null
+      },
+      "verification_status": "official_static_profile_reviewed_live_conditions_pending",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://www.blm.gov/visit/cress-creek-nature-trail",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": true,
+        "coordinates_verified": false,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Jefferson County",
+        "Ririe",
+        "Cress Creek Nature Trail"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=43.59,-111.73",
+      "accuracy": {
+        "static_status": "reviewed",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "Cress Creek is a free, self-guided BLM nature trail along the South Fork of the Snake River.",
+          "An accessible developed first section, accessible parking, and accessible restrooms are verified."
+        ],
+        "known_limits": [
+          "Official BLM pages conflict on total trail length and the exact accessible distance.",
+          "Visitors with accessibility needs should confirm current route conditions."
+        ]
+      }
+    },
+    {
+      "id": "palisades-creek",
+      "name": "Palisades Creek Trail",
+      "alternate_names": [],
+      "destination_type": "trail",
+      "description": "A scenic canyon trail with longer hiking options; distance, heat, runoff, and wildlife awareness matter.",
+      "county": "Bonneville",
+      "region": "Eastern Idaho",
+      "coordinates": {
+        "lat": 43.422,
+        "lon": -111.216,
+        "precision": "starter coordinates; not approved for turn-by-turn navigation"
+      },
+      "nearest_town": "Irwin",
+      "managing_agency": "Caribou-Targhee National Forest",
+      "source_ids": [
+        "usfs_ctnf"
+      ],
+      "activities": [
+        "hiking",
+        "wildlife",
+        "fishing",
+        "photography"
+      ],
+      "access": {
+        "road_surface": "paved to trail corridor; verify final access",
+        "vehicle_min": "2wd",
+        "seasonal": "snow and runoff affect timing",
+        "trailer_suitable": false
+      },
+      "camping": {
+        "available": false,
+        "types": []
+      },
+      "facilities": {
+        "toilets": "verify",
+        "water": "treat natural water",
+        "cell_service": "unreliable"
+      },
+      "suitability": {
+        "beginner": false,
+        "children": true,
+        "dogs": false,
+        "accessible": false,
+        "quiet": true,
+        "crowd": "moderate",
+        "dog_policy": "verify"
+      },
+      "cost_level": "free",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 72,
+        "expires_at": null
+      },
+      "verification_status": "official_static_profile_reviewed_live_conditions_pending",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://www.fs.usda.gov/r04/caribou-targhee/recreation/palisades-creek-campground",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": true,
+        "coordinates_verified": false,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Bonneville County",
+        "Irwin",
+        "Palisades Creek Trail"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=43.422,-111.216",
+      "accuracy": {
+        "static_status": "reviewed",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "The Palisades Creek corridor provides non-motorized access toward Lower and Upper Palisades Lakes.",
+          "Official Forest Service information identifies hiking and fishing opportunities."
+        ],
+        "known_limits": [
+          "Snow, runoff, bridge conditions, wildlife, parking, and camping rules require trip-day confirmation.",
+          "This should not be represented as an easy accessible short walk."
+        ]
+      }
+    },
+    {
+      "id": "palisades-reservoir",
+      "name": "Palisades Reservoir",
+      "alternate_names": [],
+      "destination_type": "reservoir",
+      "description": "A large reservoir along the Wyoming border corridor offering scenery, fishing, boating, and nearby camping choices.",
+      "county": "Bonneville",
+      "region": "Eastern Idaho",
+      "coordinates": {
+        "lat": 43.18,
+        "lon": -111.21,
+        "precision": "starter coordinates; not approved for turn-by-turn navigation"
+      },
+      "nearest_town": "Irwin",
+      "managing_agency": "U.S. Bureau of Reclamation / local recreation managers",
+      "source_ids": [
+        "usfs_ctnf",
+        "usbr_palisades",
+        "idfg"
+      ],
+      "activities": [
+        "fishing",
+        "boating",
+        "scenic",
+        "picnicking"
+      ],
+      "access": {
+        "road_surface": "paved highway access with site-specific roads",
+        "vehicle_min": "2wd",
+        "seasonal": "water levels and winter conditions vary",
+        "trailer_suitable": true
+      },
+      "camping": {
+        "available": true,
+        "types": [
+          "nearby campgrounds"
+        ]
+      },
+      "facilities": {
+        "toilets": "site-specific",
+        "water": "site-specific",
+        "cell_service": "unreliable",
+        "boat_ramp": "site-specific/verify"
+      },
+      "suitability": {
+        "beginner": true,
+        "children": true,
+        "dogs": false,
+        "accessible": false,
+        "quiet": false,
+        "crowd": "moderate",
+        "dog_policy": "verify"
+      },
+      "cost_level": "varies",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 86,
+        "expires_at": null
+      },
+      "verification_status": "official_static_profile_reviewed_live_conditions_pending",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://www.recreation.gov/camping/gateways/1250",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": true,
+        "coordinates_verified": false,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Bonneville County",
+        "Irwin",
+        "Palisades Reservoir"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=43.18,-111.21",
+      "accuracy": {
+        "static_status": "reviewed",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "Palisades Reservoir is managed by the Bureau of Reclamation with recreation administered by the Caribou-Targhee National Forest.",
+          "Official information describes roughly 25 square miles of water and about 70 miles of shoreline.",
+          "Public recreation includes camping, picnicking, boat ramps, boating, and fishing."
+        ],
+        "known_limits": [
+          "Fluctuating water levels can affect ramps, shoreline access, boating, and fishing.",
+          "Facilities and rules vary by access point."
+        ]
+      }
+    },
+    {
+      "id": "bear-lake-state-park",
+      "name": "Bear Lake State Park",
+      "alternate_names": [],
+      "destination_type": "state_park",
+      "description": "A well-known lake destination for beaches, camping, boating, and family trips, especially busy in summer.",
+      "county": "Bear Lake",
+      "region": "Southeast Idaho",
+      "coordinates": {
+        "lat": 42.05,
+        "lon": -111.27,
+        "precision": "starter coordinates; not approved for turn-by-turn navigation"
+      },
+      "nearest_town": "St. Charles",
+      "managing_agency": "Idaho Department of Parks and Recreation",
+      "source_ids": [
+        "idaho_parks",
+        "idaho_parks_alerts"
+      ],
+      "activities": [
+        "camping",
+        "boating",
+        "swimming",
+        "fishing",
+        "picnicking"
+      ],
+      "access": {
+        "road_surface": "paved",
+        "vehicle_min": "2wd",
+        "seasonal": "services and shoreline conditions vary",
+        "trailer_suitable": true
+      },
+      "camping": {
+        "available": true,
+        "types": [
+          "tent",
+          "rv"
+        ]
+      },
+      "facilities": {
+        "toilets": "yes/seasonal",
+        "water": "verify",
+        "cell_service": "variable",
+        "boat_ramp": "verify"
+      },
+      "suitability": {
+        "beginner": true,
+        "children": true,
+        "dogs": true,
+        "accessible": true,
+        "quiet": false,
+        "crowd": "high",
+        "dog_policy": "conditional"
+      },
+      "cost_level": "paid",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 92,
+        "expires_at": null
+      },
+      "verification_status": "official_static_profile_reviewed_live_conditions_pending",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://parksandrecreation.idaho.gov/state-park/bear-lake-state-park/",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": true,
+        "coordinates_verified": false,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Bear Lake County",
+        "St. Charles",
+        "Bear Lake State Park"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=42.05,-111.27",
+      "accuracy": {
+        "static_status": "reviewed",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "Bear Lake State Park has multiple units with different camping, parking, beach, reservation, and dog rules.",
+          "North Beach does not allow dogs.",
+          "Mountain Fawn and Sage Springs allow dogs when confined or on a leash no longer than six feet.",
+          "Mountain Fawn campsites are reservation-only."
+        ],
+        "known_limits": [
+          "Recommendations must name the specific park unit; the whole park cannot safely be labeled simply dog-friendly.",
+          "Beach capacity, parking, water, fire rules, and campsite availability change."
+        ]
+      }
+    },
+    {
+      "id": "minnetonka-cave",
+      "name": "Minnetonka Cave",
+      "alternate_names": [],
+      "destination_type": "cave",
+      "description": "A guided cave-tour destination with stairs, cool temperatures, seasonal operations, and reservation considerations.",
+      "county": "Bear Lake",
+      "region": "Southeast Idaho",
+      "coordinates": {
+        "lat": 42.09,
+        "lon": -111.52,
+        "precision": "starter coordinates; not approved for turn-by-turn navigation"
+      },
+      "nearest_town": "St. Charles",
+      "managing_agency": "Caribou-Targhee National Forest",
+      "source_ids": [
+        "usfs_ctnf",
+        "recreation_gov"
+      ],
+      "activities": [
+        "cave_tour",
+        "scenic",
+        "hiking"
+      ],
+      "access": {
+        "road_surface": "mountain road; seasonal access",
+        "vehicle_min": "2wd",
+        "seasonal": "strictly seasonal; verify opening",
+        "trailer_suitable": false
+      },
+      "camping": {
+        "available": false,
+        "types": []
+      },
+      "facilities": {
+        "toilets": "verify current restroom availability",
+        "water": "no potable water available",
+        "cell_service": "unreliable"
+      },
+      "suitability": {
+        "beginner": true,
+        "children": true,
+        "dogs": false,
+        "accessible": false,
+        "quiet": false,
+        "crowd": "moderate",
+        "dog_policy": "not_allowed"
+      },
+      "cost_level": "paid",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 91,
+        "expires_at": null
+      },
+      "verification_status": "official_static_profile_reviewed_live_conditions_pending",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://www.fs.usda.gov/r04/caribou-targhee/recreation/minnetonka-cave",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": true,
+        "coordinates_verified": false,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Bear Lake County",
+        "St. Charles",
+        "Minnetonka Cave"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=42.09,-111.52",
+      "accuracy": {
+        "static_status": "reviewed",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "Minnetonka Cave is a guided-tour cave with 888 stairs.",
+          "The cave stays near 40°F year-round.",
+          "Potable water is not available.",
+          "White-nose syndrome safeguards prohibit items previously used in another cave or mine."
+        ],
+        "known_limits": [
+          "Tours, tickets, opening, and hours require a current official check.",
+          "The official page contains older seasonal-hour text, so hours are intentionally not embedded."
+        ]
+      }
+    },
+    {
+      "id": "paris-springs",
+      "name": "Paris Springs Campground",
+      "alternate_names": [],
+      "destination_type": "campground",
+      "description": "A forest campground near Bear Lake County for a quieter overnight away from the busiest shoreline areas.",
+      "county": "Bear Lake",
+      "region": "Southeast Idaho",
+      "coordinates": {
+        "lat": 42.2,
+        "lon": -111.45,
+        "precision": "starter coordinates; not approved for turn-by-turn navigation"
+      },
+      "nearest_town": "Paris",
+      "managing_agency": "Caribou-Targhee National Forest",
+      "source_ids": [
+        "usfs_ctnf",
+        "recreation_gov"
+      ],
+      "activities": [
+        "camping",
+        "hiking",
+        "picnicking",
+        "wildlife"
+      ],
+      "access": {
+        "road_surface": "dirt campground roads and parking spurs",
+        "vehicle_min": "2wd",
+        "seasonal": "seasonal campground; verify opening",
+        "trailer_suitable": true
+      },
+      "camping": {
+        "available": true,
+        "types": [
+          "tent",
+          "rv"
+        ]
+      },
+      "facilities": {
+        "toilets": "vault toilets listed",
+        "water": "drinking water listed; verify seasonal service",
+        "cell_service": "unreliable"
+      },
+      "suitability": {
+        "beginner": true,
+        "children": true,
+        "dogs": true,
+        "accessible": false,
+        "quiet": true,
+        "crowd": "low to moderate",
+        "dog_policy": "allowed"
+      },
+      "cost_level": "paid",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 89,
+        "expires_at": null
+      },
+      "verification_status": "official_static_profile_reviewed_live_conditions_pending",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://www.recreation.gov/camping/campgrounds/233855",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": true,
+        "coordinates_verified": false,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Bear Lake County",
+        "Paris",
+        "Paris Springs Campground"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=42.2,-111.45",
+      "accuracy": {
+        "static_status": "reviewed",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "Paris Springs Campground is about five miles from Paris in Paris Canyon at roughly 6,600 feet.",
+          "It has three group sites and nine single-family campsites.",
+          "Vault toilets and drinking water are listed; electricity is not available.",
+          "Internal campground roads and parking spurs are dirt."
+        ],
+        "known_limits": [
+          "Opening, water, fees, fire restrictions, availability, and road condition require a live check."
+        ]
+      }
+    },
+    {
+      "id": "soda-springs-geyser",
+      "name": "Soda Springs Geyser Park",
+      "alternate_names": [],
+      "destination_type": "city_attraction",
+      "description": "A quick, easy roadside stop centered on the city’s controlled geyser and local history.",
+      "county": "Caribou",
+      "region": "Southeast Idaho",
+      "coordinates": {
+        "lat": 42.659,
+        "lon": -111.601,
+        "precision": "starter coordinates; not approved for turn-by-turn navigation"
+      },
+      "nearest_town": "Soda Springs",
+      "managing_agency": "City of Soda Springs",
+      "source_ids": [
+        "soda_springs_city"
+      ],
+      "activities": [
+        "scenic",
+        "history",
+        "picnicking"
+      ],
+      "access": {
+        "road_surface": "paved",
+        "vehicle_min": "2wd",
+        "seasonal": "year-round access; weather limits",
+        "trailer_suitable": true
+      },
+      "camping": {
+        "available": false,
+        "types": []
+      },
+      "facilities": {
+        "toilets": "available nearby/verify",
+        "water": "available nearby",
+        "cell_service": "generally available"
+      },
+      "suitability": {
+        "beginner": true,
+        "children": true,
+        "dogs": false,
+        "accessible": true,
+        "quiet": false,
+        "crowd": "low to moderate",
+        "dog_policy": "verify"
+      },
+      "cost_level": "free",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 65,
+        "expires_at": null
+      },
+      "verification_status": "official_source_matched_additional_profile_review_needed",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://www.sodaspringsid.com/",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": false,
+        "coordinates_verified": false,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Caribou County",
+        "Soda Springs",
+        "Soda Springs Geyser Park"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=42.659,-111.601",
+      "accuracy": {
+        "static_status": "partial",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "The geyser is a City of Soda Springs attraction with paved in-town access."
+        ],
+        "known_limits": [
+          "Eruption schedule, parking, restrooms, dog rules, and maintenance status remain under review."
+        ]
+      }
+    },
+    {
+      "id": "harriman-state-park",
+      "name": "Harriman State Park",
+      "alternate_names": [],
+      "destination_type": "state_park",
+      "description": "A scenic state park in Island Park with wildlife, trails, river access, winter recreation, and managed facilities.",
+      "county": "Fremont",
+      "region": "Eastern Idaho",
+      "coordinates": {
+        "lat": 44.31,
+        "lon": -111.45,
+        "precision": "starter coordinates; not approved for turn-by-turn navigation"
+      },
+      "nearest_town": "Island Park",
+      "managing_agency": "Idaho Department of Parks and Recreation",
+      "source_ids": [
+        "idaho_parks",
+        "idaho_parks_alerts"
+      ],
+      "activities": [
+        "hiking",
+        "wildlife",
+        "fishing",
+        "winter",
+        "scenic"
+      ],
+      "access": {
+        "road_surface": "paved primary access",
+        "vehicle_min": "2wd",
+        "seasonal": "year-round with activity changes",
+        "trailer_suitable": true
+      },
+      "camping": {
+        "available": true,
+        "types": [
+          "cabins",
+          "nearby camping varies"
+        ]
+      },
+      "facilities": {
+        "toilets": "yes/verify",
+        "water": "verify",
+        "cell_service": "variable"
+      },
+      "suitability": {
+        "beginner": true,
+        "children": true,
+        "dogs": false,
+        "accessible": true,
+        "quiet": true,
+        "crowd": "moderate",
+        "dog_policy": "not_allowed"
+      },
+      "cost_level": "paid",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 94,
+        "expires_at": null
+      },
+      "verification_status": "official_static_profile_reviewed_live_conditions_pending",
+      "safety_note": "Dogs are restricted to parking lots next to vehicles and are not allowed on park trails or roads. Verify current park rules, seasonal access, weather, and activity restrictions before leaving.",
+      "official_page": "https://parksandrecreation.idaho.gov/state-park/harriman-state-park/",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": true,
+        "coordinates_verified": false,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Fremont County",
+        "Island Park",
+        "Harriman State Park"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=44.31,-111.45",
+      "accuracy": {
+        "static_status": "reviewed",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "Harriman State Park offers trails, wildlife viewing, fishing, historic interpretation, lodging, and winter recreation.",
+          "Dogs are allowed only in parking lots next to vehicles and are not permitted on park trails or roads.",
+          "Pets are not allowed in park buildings or yurts."
+        ],
+        "known_limits": [
+          "Trail conditions, wildlife advisories, lodging, groomed routes, fire, and weather require live checks."
+        ]
+      }
+    },
+    {
+      "id": "henrys-lake-state-park",
+      "name": "Henrys Lake State Park",
+      "alternate_names": [],
+      "destination_type": "state_park",
+      "description": "A high-elevation state park focused on fishing, camping, scenery, and access near Yellowstone country.",
+      "county": "Fremont",
+      "region": "Eastern Idaho",
+      "coordinates": {
+        "lat": 44.6164,
+        "lon": -111.3677,
+        "precision": "official-source coordinates reviewed"
+      },
+      "nearest_town": "Island Park",
+      "managing_agency": "Idaho Department of Parks and Recreation",
+      "source_ids": [
+        "idaho_parks",
+        "idaho_parks_alerts",
+        "idfg"
+      ],
+      "activities": [
+        "camping",
+        "fishing",
+        "boating",
+        "wildlife"
+      ],
+      "access": {
+        "road_surface": "paved",
+        "vehicle_min": "2wd",
+        "seasonal": "high-elevation seasonal limits",
+        "trailer_suitable": true
+      },
+      "camping": {
+        "available": true,
+        "types": [
+          "tent",
+          "rv",
+          "cabins"
+        ]
+      },
+      "facilities": {
+        "toilets": "restrooms listed; seasonal service varies",
+        "water": "seasonal service; verify before arrival",
+        "cell_service": "variable",
+        "boat_ramp": "ADA boat ramp listed"
+      },
+      "suitability": {
+        "beginner": true,
+        "children": true,
+        "dogs": true,
+        "accessible": true,
+        "quiet": false,
+        "crowd": "moderate",
+        "dog_policy": "allowed"
+      },
+      "cost_level": "paid",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 95,
+        "expires_at": null
+      },
+      "verification_status": "official_static_profile_reviewed_live_conditions_pending",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://parksandrecreation.idaho.gov/state-park/henrys-lake-state-park/",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": true,
+        "coordinates_verified": true,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Fremont County",
+        "Island Park",
+        "Henrys Lake State Park"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=44.6164,-111.3677",
+      "accuracy": {
+        "static_status": "reviewed",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "Henrys Lake State Park is a high-elevation fishing and camping park about 15 miles west of Yellowstone National Park.",
+          "The official page lists 83 serviced sites and three cabins.",
+          "Verified ADA features include a boat ramp, cabin, campsite, restroom, and trail.",
+          "The park lists cutthroat, brook, and cut-bow hybrid trout."
+        ],
+        "known_limits": [
+          "High-elevation weather changes quickly.",
+          "Water, dump station, winter services, boating, and availability require current checks."
+        ]
+      }
+    },
+    {
+      "id": "big-springs",
+      "name": "Big Springs and Johnny Sack Cabin",
+      "alternate_names": [],
+      "destination_type": "day_use_area",
+      "description": "A popular easy-access stop at a major spring, with wildlife viewing and the historic Johnny Sack Cabin nearby.",
+      "county": "Fremont",
+      "region": "Eastern Idaho",
+      "coordinates": {
+        "lat": 44.5,
+        "lon": -111.26,
+        "precision": "starter coordinates; not approved for turn-by-turn navigation"
+      },
+      "nearest_town": "Island Park",
+      "managing_agency": "Caribou-Targhee National Forest",
+      "source_ids": [
+        "usfs_ctnf"
+      ],
+      "activities": [
+        "scenic",
+        "wildlife",
+        "history",
+        "picnicking"
+      ],
+      "access": {
+        "road_surface": "paved/gravel; verify season",
+        "vehicle_min": "2wd",
+        "seasonal": "snow affects access",
+        "trailer_suitable": true
+      },
+      "camping": {
+        "available": false,
+        "types": []
+      },
+      "facilities": {
+        "toilets": "verify",
+        "water": "bring your own",
+        "cell_service": "variable"
+      },
+      "suitability": {
+        "beginner": true,
+        "children": true,
+        "dogs": false,
+        "accessible": true,
+        "quiet": false,
+        "crowd": "moderate",
+        "dog_policy": "verify"
+      },
+      "cost_level": "low",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 68,
+        "expires_at": null
+      },
+      "verification_status": "official_source_matched_additional_profile_review_needed",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://www.fs.usda.gov/r04/caribou-targhee/recreation",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": false,
+        "coordinates_verified": false,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Fremont County",
+        "Island Park",
+        "Big Springs and Johnny Sack Cabin"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=44.5,-111.26",
+      "accuracy": {
+        "static_status": "partial",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "Big Springs and Johnny Sack Cabin are established recreation and historic attractions in the Island Park area."
+        ],
+        "known_limits": [
+          "Current cabin hours, accessibility, parking, dog rules, and winter access require a destination-specific official check."
+        ]
+      }
+    },
+    {
+      "id": "upper-mesa-falls",
+      "name": "Upper Mesa Falls",
+      "alternate_names": [],
+      "destination_type": "waterfall",
+      "description": "A major waterfall overlook with a developed boardwalk area and one of eastern Idaho’s strongest sightseeing stops.",
+      "county": "Fremont",
+      "region": "Eastern Idaho",
+      "coordinates": {
+        "lat": 44.19,
+        "lon": -111.33,
+        "precision": "starter coordinates; not approved for turn-by-turn navigation"
+      },
+      "nearest_town": "Ashton",
+      "managing_agency": "Caribou-Targhee National Forest",
+      "source_ids": [
+        "usfs_ctnf"
+      ],
+      "activities": [
+        "scenic",
+        "photography",
+        "walking",
+        "picnicking"
+      ],
+      "access": {
+        "road_surface": "paved scenic byway",
+        "vehicle_min": "2wd",
+        "seasonal": "winter access may be limited",
+        "trailer_suitable": true
+      },
+      "camping": {
+        "available": false,
+        "types": []
+      },
+      "facilities": {
+        "toilets": "seasonal/verify",
+        "water": "bring your own",
+        "cell_service": "unreliable"
+      },
+      "suitability": {
+        "beginner": true,
+        "children": true,
+        "dogs": false,
+        "accessible": true,
+        "quiet": false,
+        "crowd": "high",
+        "dog_policy": "verify"
+      },
+      "cost_level": "low",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 78,
+        "expires_at": null
+      },
+      "verification_status": "official_static_profile_reviewed_live_conditions_pending",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://www.fs.usda.gov/r04/caribou-targhee/recreation",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": true,
+        "coordinates_verified": false,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Fremont County",
+        "Ashton",
+        "Upper Mesa Falls"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=44.19,-111.33",
+      "accuracy": {
+        "static_status": "reviewed",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "Forest Service visitor information identifies Upper Mesa Falls as a 114-foot waterfall.",
+          "The site includes viewing platforms, trails, picnic opportunities, and the historic Big Falls Inn during its operating season.",
+          "The developed overlook is described as accessible."
+        ],
+        "known_limits": [
+          "Visitor hours, winter road access, fees, trail condition, and dog rules require a current check."
+        ]
+      }
+    },
+    {
+      "id": "warm-river-campground",
+      "name": "Warm River Campground",
+      "alternate_names": [],
+      "destination_type": "campground",
+      "description": "A forest campground near the Warm River corridor with access to fishing, trails, and Mesa Falls country.",
+      "county": "Fremont",
+      "region": "Eastern Idaho",
+      "coordinates": {
+        "lat": 44.11,
+        "lon": -111.32,
+        "precision": "starter coordinates; not approved for turn-by-turn navigation"
+      },
+      "nearest_town": "Ashton",
+      "managing_agency": "Caribou-Targhee National Forest",
+      "source_ids": [
+        "usfs_ctnf",
+        "recreation_gov"
+      ],
+      "activities": [
+        "camping",
+        "fishing",
+        "hiking",
+        "picnicking"
+      ],
+      "access": {
+        "road_surface": "paved/gravel final access; verify",
+        "vehicle_min": "2wd",
+        "seasonal": "typically seasonal",
+        "trailer_suitable": true
+      },
+      "camping": {
+        "available": true,
+        "types": [
+          "tent",
+          "rv"
+        ]
+      },
+      "facilities": {
+        "toilets": "vault toilets listed",
+        "water": "drinking water listed; verify seasonal service",
+        "cell_service": "unreliable"
+      },
+      "suitability": {
+        "beginner": true,
+        "children": true,
+        "dogs": false,
+        "accessible": false,
+        "quiet": true,
+        "crowd": "moderate",
+        "dog_policy": "verify"
+      },
+      "cost_level": "paid",
+      "current": {
+        "readiness": "yellow",
+        "status": "Official static facts reviewed where possible; live trip-day checks still required",
+        "road_status": "Unknown",
+        "weather": "Use current official forecast",
+        "fire_restrictions": "Unknown",
+        "facility_status": "Verify before departure",
+        "last_verified": null,
+        "confidence": 90,
+        "expires_at": null
+      },
+      "verification_status": "official_static_profile_reviewed_live_conditions_pending",
+      "safety_note": "Conditions can change quickly. Verify official access, closures, weather, fire restrictions, and rules before leaving.",
+      "official_page": "https://www.recreation.gov/camping/campgrounds/232223",
+      "verification": {
+        "static_source_matched": true,
+        "profile_verified": true,
+        "coordinates_verified": false,
+        "current_conditions_verified": false,
+        "last_source_check": "2026-07-19",
+        "source_match_date": "2026-07-19",
+        "review_note": "Stable planning facts reviewed against an official or managing-agency source on 2026-07-19. Current trip-day conditions remain unverified."
+      },
+      "alert_match_terms": [
+        "Fremont County",
+        "Ashton",
+        "Warm River Campground"
+      ],
+      "directions_url": "https://www.google.com/maps/search/?api=1&query=44.11,-111.32",
+      "accuracy": {
+        "static_status": "reviewed",
+        "static_verified_on": "2026-07-19",
+        "current_conditions_status": "not_verified",
+        "verified_facts": [
+          "Warm River Campground sits along Warm River at roughly 5,200 feet.",
+          "It includes a group site and several single sites, including tent-only sites.",
+          "Vault toilets, drinking water, and trash collection are listed.",
+          "Fishing, tubing, hiking, biking, and horseback riding are available nearby."
+        ],
+        "known_limits": [
+          "Opening, river conditions, tubing safety, availability, fire restrictions, and water service require current checks."
+        ]
+      }
+    }
+  ],
+  "build_notes": [
+    "Destination-specific official pages matched for all 25 starter records.",
+    "No record is approved green because access, closures, facilities, and coordinates are not fully verified.",
+    "Known major compatibility rules are being corrected during review."
+  ],
+  "accuracy_build": {
+    "built_on": "2026-07-19",
+    "profiles_reviewed": 20,
+    "profiles_partial": 5,
+    "coordinates_reviewed": 2,
+    "live_conditions_embedded": false
+  }
+}

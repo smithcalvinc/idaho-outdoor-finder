@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.4.0",
+  "mode": "not_live_single_file",
+  "generated_at": null,
+  "expires_at": null,
+  "successful_checks": 0,
+  "failed_checks": 0,
+  "active_alerts": [],
+  "destination_conditions": [],
+  "warnings": [
+    "Static destination facts were reviewed on July 19, 2026.",
+    "No stored condition is presented as current.",
+    "Live weather alone does not qualify a destination for a green rating."
+  ]
+}
