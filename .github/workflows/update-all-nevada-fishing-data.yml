@@ -1,0 +1,189 @@
+name: Update All Nevada Fishing Data — Verified Public Access
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "build_nevada_fishing_data.py"
+      - ".github/workflows/update-all-nevada-fishing-data.yml"
+  schedule:
+    - cron: "37 15 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: all-nevada-fishing-data-verified-access
+  cancel-in-progress: false
+
+jobs:
+  update-all-nevada-fishing-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install official-page parser
+        run: python -m pip install --disable-pip-version-check beautifulsoup4==4.13.4
+
+      - name: Run offline strict-access safety tests
+        run: python build_nevada_fishing_data.py --self-test
+
+      - name: Build Nevada verified public-access and fishing-report data
+        run: |
+          python build_nevada_fishing_data.py \
+            --root . \
+            --output-dir data
+
+      - name: Validate Nevada source separation, access evidence and website integration
+        shell: bash
+        run: |
+          test -s data/nevada_counties.csv
+          test -s config/nevada_counties.json
+          test -s data/nevada_public_fishing_access.json
+          test -s data/nevada_public_fishing_access.js
+          test -s data/nevada_fishing_report_database.json
+          test -s data/nevada_fishing_report_database.js
+          test -s data/nevada_fishing_report_database.csv
+          test -s data/nevada_unverified_fishable_waters.json
+          test -s data/nevada_access_source_audit.json
+          test -s data/nevada_project_status.json
+          test -s nevada-county-reports.html
+          test -s recent_fishing_reports.js
+          test -s update_status.js
+
+          python - <<'PY'
+          import json
+          import re
+          from pathlib import Path
+
+          access = json.loads(Path("data/nevada_public_fishing_access.json").read_text())
+          reports = json.loads(Path("data/nevada_fishing_report_database.json").read_text())
+          unverified = json.loads(Path("data/nevada_unverified_fishable_waters.json").read_text())
+          audit = json.loads(Path("data/nevada_access_source_audit.json").read_text())
+          status = json.loads(Path("data/nevada_project_status.json").read_text())
+
+          expected_counties = [
+              "Carson City", "Churchill", "Clark", "Douglas", "Elko", "Esmeralda",
+              "Eureka", "Humboldt", "Lander", "Lincoln", "Lyon", "Mineral", "Nye",
+              "Pershing", "Storey", "Washoe", "White Pine",
+          ]
+
+          assert access["county_count"] == 17
+          assert reports["county_count"] == 17
+          assert [row["county"] for row in reports["counties"]] == expected_counties
+          assert [row["county_number"] for row in reports["counties"]] == list(range(1, 18))
+
+          metadata = reports["metadata"]
+          assert metadata["public_access_only"] is True
+          assert metadata["fishnv_is_access_verification"] is False
+          assert "FishNV-only waters are quarantined" in metadata["access_policy"]
+
+          assert status["deployment_status"] == "validated_ready_to_commit"
+          assert status["validation"]["passed"] is True
+          assert status["validation"]["strict_public_access"] is True
+          assert status["validation"]["fishnv_is_access_verification"] is False
+          assert status["source_counts"]["county_polygons"] == 17
+          assert status["source_counts"]["fishnv_water_urls"] >= 400
+          assert reports["public_water_count"] >= 10
+          assert reports["verified_access_point_count"] >= 10
+          assert reports["report_count"] >= 10
+          assert status["validation"]["populated_counties"] >= 5
+          assert len(status["validation"]["access_verification_methods"]) >= 2
+
+          assert unverified["metadata"]["publication_status"] == "not_published"
+          assert unverified["count"] == reports["unverified_fishable_water_count"]
+          assert unverified["count"] == audit["matching"]["quarantined_fishnv_waters"]
+          assert all(row["publication_status"] == "quarantined_unverified_public_access" for row in unverified["waters"])
+
+          def valid(lon, lat):
+              try:
+                  return -120.2 <= float(lon) <= -113.8 and 34.8 <= float(lat) <= 42.2
+              except (TypeError, ValueError):
+                  return False
+
+          unique_points = set()
+          for water in reports["flat_waters"]:
+              assert water["publication_status"] == "published_verified_public_access"
+              assert water.get("access_points"), water.get("water_name")
+              lat, lon = water.get("latitude"), water.get("longitude")
+              if lat not in (None, "") or lon not in (None, ""):
+                  assert lat not in (None, "") and lon not in (None, "")
+                  assert valid(lon, lat), (water.get("water_name"), lat, lon)
+              for point in water["access_points"]:
+                  unique_points.add(point["access_id"])
+                  assert point["public_access_status"] == "verified_public"
+                  assert point["entire_shoreline_public"] is False
+                  assert point.get("access_point_name")
+                  assert point.get("official_source_url", "").startswith("https://")
+                  assert point.get("verification_evidence")
+                  assert point.get("verification_method")
+                  assert "fishnv" not in point["verification_method"].lower()
+                  assert point["access_point_name"].lower() != "fishnv mapped fishing location"
+                  plat, plon = point.get("latitude"), point.get("longitude")
+                  if plat not in (None, "") or plon not in (None, ""):
+                      assert plat not in (None, "") and plon not in (None, "")
+                      assert valid(plon, plat), (point.get("access_point_name"), plat, plon)
+                  directions = str(point.get("directions_url") or "").lower().replace("%2c", ",")
+                  assert "query=null" not in directions
+                  assert "query=undefined" not in directions
+                  assert "query=0,0" not in directions
+                  assert "query=," not in directions
+
+          assert len(unique_points) == reports["verified_access_point_count"]
+
+          page = Path("nevada-county-reports.html").read_text()
+          assert "Nevada Verified Public Fishing Access" in page
+          assert "FishNV supplies water and species information, but it does not prove public entry" in page
+          assert "Independently verified access points" in page
+          assert "nevada_unverified_fishable_waters" not in page
+          assert "FishNV mapped fishing location" not in page
+
+          update_text = Path("update_status.js").read_text()
+          match = re.search(r"window\.FFO_UPDATE_STATUS\s*=\s*(\{.*\})\s*;", update_text, re.S)
+          assert match, "Could not parse update_status.js"
+          admin = json.loads(match.group(1))
+          states = {row["state"] for row in admin.get("states", [])}
+          assert "Nevada" in states
+
+          print("Nevada independently verified waters:", reports["public_water_count"])
+          print("Nevada independently verified access points:", reports["verified_access_point_count"])
+          print("Nevada quarantined FishNV-only waters:", unverified["count"])
+          print("Nevada official report/update records:", reports["report_count"])
+          print("Nevada populated county-equivalents:", status["validation"]["populated_counties"])
+          print("Access verification methods:", status["validation"]["access_verification_methods"])
+          PY
+
+          git diff --check
+
+      - name: Commit Nevada data and website integration
+        shell: bash
+        run: |
+          FILES=(
+            data/nevada_*
+            config/nevada_*
+            nevada-county-reports.html
+            brand-shell.js
+            service-worker.js
+            sitemap.xml
+            recent_fishing_reports.js
+            update_status.js
+          )
+          if [[ -z "$(git status --porcelain -- "${FILES[@]}")" ]]; then
+            echo "No Nevada fishing-data changes to commit."
+            exit 0
+          fi
+          git config user.name "Fish Finder Outdoors Nevada Builder"
+          git config user.email "actions@users.noreply.github.com"
+          git add "${FILES[@]}"
+          git commit -m "Update Nevada verified public fishing access and reports"
+          git push
